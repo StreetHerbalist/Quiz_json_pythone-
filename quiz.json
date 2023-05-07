@@ -1,0 +1,76 @@
+from json import load
+
+  [
+    {
+     "question":"ile to 3 dodać 3?",
+     "answers":[
+         {
+         "text":"pięć",
+         "correct": false
+         }, {
+             "text":"szesc",
+             "correct": true
+         }, {
+            "text":"dziewiec",
+            "correct": false 
+         }]
+     }
+   ] 
+ },
+    {
+     "question":"Jak nazywa się najlepszy nauczyciel pythona?",
+     "answers":[
+         {
+        "text":"Jank Kozak",
+        "correct": true
+ }, {
+        "text":"Tyson Fury",
+        "correct": false
+        }, {
+        "text":"Abdrew Tate",
+        "correct": false 
+        }]
+  },
+   {
+    "question":"Więcej niż jedno zwierze to?",
+    "answers":[
+        {
+        "text":"Lama",
+        "correct": false
+        }, {
+            "text":"Stado",
+            "correct": true
+        }, {
+           "text":"Owca",
+           "correct": false 
+        }]
+    },
+   {
+    "question":" czy ptaki potrafią latać?",
+    "answers":[
+        {
+        "text":"tak",
+        "correct": false
+        }, {
+            "text":"nie",
+            "correct": false
+        }, {
+           "text":"może",
+           "correct": true
+        }]
+    },          
+     {
+      "question":"co to jest, rano chodzi na trzech nogach, w poludnie na dwoch a wieczorem na czterech?",
+      "answers":[
+          {
+          "text":"mężczyzna",
+          "correct": true
+          }, {
+              "text":"pantera",
+              "correct": false
+          }, {
+             "text":"minotaur",
+             "correct": false 
+          }]
+      }
+]
